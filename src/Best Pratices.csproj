@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <Folder Include="Design Patterns\" />
-    <Folder Include="SOLID\3-LiskovSubstitution\" />
     <Folder Include="SOLID\4-InterfaceSegregation\" />
     <Folder Include="SOLID\5-DependencyInjection\" />
   </ItemGroup>
