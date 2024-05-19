@@ -2,8 +2,15 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>_1._1</RootNamespace>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>src</RootNamespace>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Design Patterns\" />
+    <Folder Include="SOLID\3-LiskovSubstitution\" />
+    <Folder Include="SOLID\4-InterfaceSegregation\" />
+    <Folder Include="SOLID\5-DependencyInjection\" />
+  </ItemGroup>
 
 </Project>

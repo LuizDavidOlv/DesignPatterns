@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Data;
+﻿using System.ComponentModel.DataAnnotations;
 using System.Net.Mail;
-using System.Text;
 
 namespace _1._1.Solid.Single_Resposability
 {
