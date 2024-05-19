@@ -3,5 +3,7 @@
 ################################################################################
 
 /.vs
-/1.1/obj/Debug/netcoreapp3.1
-/1.1/obj/Debug/netcoreapp3.1/Pratices.AssemblyInfoInputs.cache
+/bin
+/obj
+/src/obj
+/src/bin
