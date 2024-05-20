@@ -7,7 +7,29 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Design Patterns\" />
+    <Folder Include="DesignPatterns\BehavioralPatterns\Iterator\" />
+    <Folder Include="DesignPatterns\BehavioralPatterns\Mediator\" />
+    <Folder Include="DesignPatterns\BehavioralPatterns\Memento\" />
+    <Folder Include="DesignPatterns\BehavioralPatterns\Observer\" />
+    <Folder Include="DesignPatterns\BehavioralPatterns\State\" />
+    <Folder Include="DesignPatterns\BehavioralPatterns\Strategy\" />
+    <Folder Include="DesignPatterns\BehavioralPatterns\Template\" />
+    <Folder Include="DesignPatterns\BehavioralPatterns\Visitor\" />
+    <Folder Include="DesignPatterns\BehavioralPatterns\Command\" />
+    <Folder Include="DesignPatterns\BehavioralPatterns\ChainOfResponsability\" />
+    <Folder Include="DesignPatterns\CreationalPatterns\AbtractFactory\" />
+    <Folder Include="DesignPatterns\CreationalPatterns\Builder\" />
+    <Folder Include="DesignPatterns\CreationalPatterns\Factory\" />
+    <Folder Include="DesignPatterns\CreationalPatterns\Singleton\" />
+    <Folder Include="DesignPatterns\CreationalPatterns\Prototype\" />
+    <Folder Include="DesignPatterns\CreationalPatterns\" />
+    <Folder Include="DesignPatterns\StructuralPatterns\Composite\" />
+    <Folder Include="DesignPatterns\StructuralPatterns\Decorator\" />
+    <Folder Include="DesignPatterns\StructuralPatterns\Facade\" />
+    <Folder Include="DesignPatterns\StructuralPatterns\Flyweight\" />
+    <Folder Include="DesignPatterns\StructuralPatterns\Proxy\" />
+    <Folder Include="DesignPatterns\StructuralPatterns\Bridge\" />
+    <Folder Include="DesignPatterns\StructuralPatterns\Adapter\" />
   </ItemGroup>
 
 </Project>
