@@ -8,9 +8,6 @@
 
   <ItemGroup>
     <Folder Include="Design Patterns\" />
-    <Folder Include="SOLID\5-DependencyInjection\Example\DipCompliant\" />
-    <Folder Include="SOLID\5-DependencyInjection\Example\DipViolation\" />
-    <Folder Include="SOLID\5-DependencyInjection\Example\" />
   </ItemGroup>
 
 </Project>
