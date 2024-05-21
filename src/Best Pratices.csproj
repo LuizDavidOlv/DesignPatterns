@@ -23,6 +23,10 @@
     <Folder Include="DesignPatterns\CreationalPatterns\Singleton\" />
     <Folder Include="DesignPatterns\CreationalPatterns\Prototype\" />
     <Folder Include="DesignPatterns\CreationalPatterns\" />
+    <Folder Include="DesignPatterns\DesignSpecificPatterns\CQRS\" />
+    <Folder Include="DesignPatterns\DesignSpecificPatterns\DDD\" />
+    <Folder Include="DesignPatterns\DesignSpecificPatterns\MVC\" />
+    <Folder Include="DesignPatterns\DesignSpecificPatterns\SAGA\" />
     <Folder Include="DesignPatterns\StructuralPatterns\Composite\" />
     <Folder Include="DesignPatterns\StructuralPatterns\Decorator\" />
     <Folder Include="DesignPatterns\StructuralPatterns\Facade\" />
