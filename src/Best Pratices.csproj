@@ -17,12 +17,10 @@
     <Folder Include="DesignPatterns\BehavioralPatterns\Visitor\" />
     <Folder Include="DesignPatterns\BehavioralPatterns\Command\" />
     <Folder Include="DesignPatterns\BehavioralPatterns\ChainOfResponsability\" />
-    <Folder Include="DesignPatterns\CreationalPatterns\AbtractFactory\" />
+    <Folder Include="DesignPatterns\CreationalPatterns\AbstractFactory\" />
     <Folder Include="DesignPatterns\CreationalPatterns\Builder\" />
-    <Folder Include="DesignPatterns\CreationalPatterns\Factory\" />
     <Folder Include="DesignPatterns\CreationalPatterns\Singleton\" />
     <Folder Include="DesignPatterns\CreationalPatterns\Prototype\" />
-    <Folder Include="DesignPatterns\CreationalPatterns\" />
     <Folder Include="DesignPatterns\DesignSpecificPatterns\CQRS\" />
     <Folder Include="DesignPatterns\DesignSpecificPatterns\DDD\" />
     <Folder Include="DesignPatterns\DesignSpecificPatterns\MVC\" />
