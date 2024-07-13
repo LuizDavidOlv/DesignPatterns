@@ -7,6 +7,20 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="DesignPatterns\StructuralPatterns\Facade\Python\**" />
+    <EmbeddedResource Remove="DesignPatterns\StructuralPatterns\Facade\Python\**" />
+    <None Remove="DesignPatterns\StructuralPatterns\Facade\Python\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="DesignPatterns\StructuralPatterns\Facade\Readme.md" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="DesignPatterns\StructuralPatterns\Facade\Readme.md" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="DesignPatterns\BehavioralPatterns\Iterator\" />
     <Folder Include="DesignPatterns\BehavioralPatterns\Mediator\" />
     <Folder Include="DesignPatterns\BehavioralPatterns\Memento\" />
@@ -26,7 +40,6 @@
     <Folder Include="DesignPatterns\DesignSpecificPatterns\SAGA\" />
     <Folder Include="DesignPatterns\StructuralPatterns\Composite\" />
     <Folder Include="DesignPatterns\StructuralPatterns\Decorator\" />
-    <Folder Include="DesignPatterns\StructuralPatterns\Facade\" />
     <Folder Include="DesignPatterns\StructuralPatterns\Flyweight\" />
     <Folder Include="DesignPatterns\StructuralPatterns\Proxy\" />
     <Folder Include="DesignPatterns\StructuralPatterns\Bridge\" />
