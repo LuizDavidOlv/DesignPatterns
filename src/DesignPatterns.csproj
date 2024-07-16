@@ -34,7 +34,6 @@
     <Folder Include="DesignPatterns\CreationalPatterns\Builder\" />
     <Folder Include="DesignPatterns\CreationalPatterns\Singleton\" />
     <Folder Include="DesignPatterns\CreationalPatterns\Prototype\" />
-    <Folder Include="DesignPatterns\DesignSpecificPatterns\CQRS\" />
     <Folder Include="DesignPatterns\DesignSpecificPatterns\DDD\" />
     <Folder Include="DesignPatterns\DesignSpecificPatterns\MVC\" />
     <Folder Include="DesignPatterns\DesignSpecificPatterns\SAGA\" />
