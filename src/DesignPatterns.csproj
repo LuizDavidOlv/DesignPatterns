@@ -30,7 +30,6 @@
     <Folder Include="DesignPatterns\BehavioralPatterns\Template\" />
     <Folder Include="DesignPatterns\BehavioralPatterns\Visitor\" />
     <Folder Include="DesignPatterns\BehavioralPatterns\Command\" />
-    <Folder Include="DesignPatterns\BehavioralPatterns\ChainOfResponsability\" />
     <Folder Include="DesignPatterns\CreationalPatterns\Builder\" />
     <Folder Include="DesignPatterns\CreationalPatterns\Singleton\" />
     <Folder Include="DesignPatterns\CreationalPatterns\Prototype\" />

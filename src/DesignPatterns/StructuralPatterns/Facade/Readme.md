@@ -7,21 +7,24 @@
     Having a facade is handy when you need to integrate your app with a sophisticated library that
     has dozens of features, but you just need a tiny bit of its funcionality.
 
+
 # Applicability
 
     1) Use the Facade pattern when you need to have a limited but straightfoward interface to a complex
     subsystem.
         
-        1.1) Often, sybsystems get more complex over time. Even applying design patterns typically leads 
+        1.1) Often, subsystems get more complex over time. Even applying design patterns typically leads 
         to creating more classes. A sybsystem may become more flexible and easier to reuse in various 
         contexts, but the amount of configuration and boilerplate code it demands from a clietn frows 
         ever larger. The Facade attempts to fix this problem by providing a shortcur to the most-used 
         features of the subsystem which git most client requirementes.
 
-    2) Use the FAcade when you want to structure a subsystem into layers
+
+    2) Use the Facade when you want to structure a subsystem into layers
 
         2.1) Create facades to define entry points to each level of a subsystem. You can reduce coupling
         between multiple subsystems by requiring them to communicate only through facades.
+
 
 # Pros and Cons
 
