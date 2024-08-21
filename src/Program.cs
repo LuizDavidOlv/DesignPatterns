@@ -1,13 +1,12 @@
-﻿using System;
+﻿using src.DesignPatterns.BehavioralPatterns.ChainOfResponsability.ExampleOne;
 
-namespace _1._1
+namespace Program
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Digite a palavra desejada: ");
-            string palavra = Console.ReadLine();
+            ChainOfResponsability.Execute();
             
         }
     }

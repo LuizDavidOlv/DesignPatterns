@@ -7,41 +7,33 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="DesignPatterns\StructuralPatterns\Facade\Python\**" />
-    <EmbeddedResource Remove="DesignPatterns\StructuralPatterns\Facade\Python\**" />
-    <None Remove="DesignPatterns\StructuralPatterns\Facade\Python\**" />
+    <Compile Remove="StructuralPatterns\Facade\Python\**" />
+    <EmbeddedResource Remove="StructuralPatterns\Facade\Python\**" />
+    <None Remove="StructuralPatterns\Facade\Python\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Remove="DesignPatterns\StructuralPatterns\Facade\Readme.md" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Compile Include="DesignPatterns\StructuralPatterns\Facade\Readme.md" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="DesignPatterns\BehavioralPatterns\Iterator\" />
-    <Folder Include="DesignPatterns\BehavioralPatterns\Mediator\" />
-    <Folder Include="DesignPatterns\BehavioralPatterns\Memento\" />
-    <Folder Include="DesignPatterns\BehavioralPatterns\Observer\" />
-    <Folder Include="DesignPatterns\BehavioralPatterns\State\" />
-    <Folder Include="DesignPatterns\BehavioralPatterns\Strategy\" />
-    <Folder Include="DesignPatterns\BehavioralPatterns\Template\" />
-    <Folder Include="DesignPatterns\BehavioralPatterns\Visitor\" />
-    <Folder Include="DesignPatterns\BehavioralPatterns\Command\" />
-    <Folder Include="DesignPatterns\CreationalPatterns\Builder\" />
-    <Folder Include="DesignPatterns\CreationalPatterns\Singleton\" />
-    <Folder Include="DesignPatterns\CreationalPatterns\Prototype\" />
-    <Folder Include="DesignPatterns\DesignSpecificPatterns\DDD\" />
-    <Folder Include="DesignPatterns\DesignSpecificPatterns\MVC\" />
-    <Folder Include="DesignPatterns\DesignSpecificPatterns\SAGA\" />
-    <Folder Include="DesignPatterns\StructuralPatterns\Composite\" />
-    <Folder Include="DesignPatterns\StructuralPatterns\Decorator\" />
-    <Folder Include="DesignPatterns\StructuralPatterns\Flyweight\" />
-    <Folder Include="DesignPatterns\StructuralPatterns\Proxy\" />
-    <Folder Include="DesignPatterns\StructuralPatterns\Bridge\" />
-    <Folder Include="DesignPatterns\StructuralPatterns\Adapter\" />
+    <Folder Include="BehavioralPatterns\Iterator\" />
+    <Folder Include="BehavioralPatterns\Mediator\" />
+    <Folder Include="BehavioralPatterns\Memento\" />
+    <Folder Include="BehavioralPatterns\Observer\" />
+    <Folder Include="BehavioralPatterns\State\" />
+    <Folder Include="BehavioralPatterns\Strategy\" />
+    <Folder Include="BehavioralPatterns\Template\" />
+    <Folder Include="BehavioralPatterns\Visitor\" />
+    <Folder Include="BehavioralPatterns\Command\" />
+    <Folder Include="CreationalPatterns\Builder\" />
+    <Folder Include="CreationalPatterns\Singleton\" />
+    <Folder Include="CreationalPatterns\Prototype\" />
+    <Folder Include="DesignSpecificPatterns\DDD\" />
+    <Folder Include="DesignSpecificPatterns\MVC\" />
+    <Folder Include="DesignSpecificPatterns\SAGA\" />
+    <Folder Include="StructuralPatterns\Composite\" />
+    <Folder Include="StructuralPatterns\Decorator\" />
+    <Folder Include="StructuralPatterns\Flyweight\" />
+    <Folder Include="StructuralPatterns\Proxy\" />
+    <Folder Include="StructuralPatterns\Bridge\" />
+    <Folder Include="StructuralPatterns\Adapter\" />
   </ItemGroup>
 
 </Project>
