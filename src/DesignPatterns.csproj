@@ -14,7 +14,6 @@
 
   <ItemGroup>
     <Folder Include="BehavioralPatterns\Iterator\" />
-    <Folder Include="BehavioralPatterns\Mediator\" />
     <Folder Include="BehavioralPatterns\Memento\" />
     <Folder Include="BehavioralPatterns\Observer\" />
     <Folder Include="BehavioralPatterns\State\" />

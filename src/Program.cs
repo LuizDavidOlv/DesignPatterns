@@ -1,4 +1,5 @@
 ﻿using src.DesignPatterns.BehavioralPatterns.ChainOfResponsability.ExampleOne;
+using src.DesignPatterns.BehavioralPatterns.Mediator.ExampleOne;
 
 namespace Program
 {
@@ -6,8 +7,7 @@ namespace Program
     {
         static void Main(string[] args)
         {
-            ChainOfResponsability.Execute();
-            
+            Mediator.Execute();
         }
     }
 }
