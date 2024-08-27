@@ -1,5 +1,6 @@
 ﻿using src.DesignPatterns.BehavioralPatterns.ChainOfResponsability.ExampleOne;
 using src.DesignPatterns.BehavioralPatterns.Mediator.ExampleOne;
+using src.StructuralPatterns.Adapter.ExampleOne;
 
 namespace Program
 {
@@ -7,7 +8,7 @@ namespace Program
     {
         static void Main(string[] args)
         {
-            Mediator.Execute();
+            AdapterPattern.Execute();
         }
     }
 }
