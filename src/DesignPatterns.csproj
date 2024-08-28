@@ -22,7 +22,6 @@
     <Folder Include="BehavioralPatterns\Visitor\" />
     <Folder Include="BehavioralPatterns\Command\" />
     <Folder Include="CreationalPatterns\Builder\" />
-    <Folder Include="CreationalPatterns\Singleton\" />
     <Folder Include="CreationalPatterns\Prototype\" />
     <Folder Include="DesignSpecificPatterns\DDD\" />
     <Folder Include="DesignSpecificPatterns\MVC\" />

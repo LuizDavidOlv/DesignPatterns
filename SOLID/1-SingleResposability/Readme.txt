@@ -1,6 +1,6 @@
 ﻿"Every software module should have only reason to change" 
 
-It is important to separate each responsability into separeta classes
+It is important to separate each responsability into separeted classes
 because when the requirements change,that change will manifest through
 a change in reponsability amongst the classes. If a class assumes more than
 one responsability, then there will be more than one reason for it to change.
