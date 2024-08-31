@@ -27,7 +27,6 @@
     <Folder Include="DesignSpecificPatterns\MVC\" />
     <Folder Include="DesignSpecificPatterns\SAGA\" />
     <Folder Include="StructuralPatterns\Composite\" />
-    <Folder Include="StructuralPatterns\Decorator\" />
     <Folder Include="StructuralPatterns\Flyweight\" />
     <Folder Include="StructuralPatterns\Proxy\" />
     <Folder Include="StructuralPatterns\Bridge\" />

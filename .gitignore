@@ -3,8 +3,6 @@
 ################################################################################
 
 /.vs
-/bin
-/obj
-/src/obj
-/src/bin
-/.vs/Pratices/v16/.suo
+**/bin
+**/obj
+/SOLID/obj/Debug/net8.0/SOLID.AssemblyInfoInputs.cache
