@@ -5,4 +5,8 @@
 /.vs
 **/bin
 **/obj
-/SOLID/obj/Debug/net8.0/SOLID.AssemblyInfoInputs.cache
+/SOLID/obj
+/SOLID/obj/project.assets.json
+/SOLID/obj/project.nuget.cache
+/SOLID/obj/SOLID.csproj.nuget.dgspec.json
+/SOLID/obj/SOLID.csproj.nuget.g.props
