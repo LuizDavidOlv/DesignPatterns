@@ -1,20 +1,25 @@
-##### Source: https://refactoring.guru/design-patterns/singleton
+<!-- Source: https://refactoring.guru/design-patterns/singleton -->
 
 # Intent:
-- Creational design pattern that lets you sendure that a class has only one instance, while providing a global 
+- Singleton is a Creational design pattern that lets you ensure that a class has only one instance, while providing a global 
 access point to this instance.
 
 
 # Applicability
 - Use the singleton pattern when a class in your program should have just a single instance available to all clients;
  for example, a single database object shared by different parts of the program.
+
     * The singleton pattern disables all other means of creating objects of a class except for the special creation
     method. This method either creates a new object or returns an existing one if it has already been created.
 
+    
+    
 - Use the singleton pattern when you need stricter control over global variables.
+
     * Unlike global variables , the singleton pattern guarantees that there's just one instance of a class. Nothing,
     except for the singleton class itself, can replace the cached instance.
 
+    
 # How to Implement
 - Add a private static field to the class for storing the singleton instance.
 - Declare a public static creation method for getting the singleton instance.
@@ -24,6 +29,7 @@ put it into the static field. The method should always return that instance on a
 but not the other objects.
 - Go over the client code and replace all direct calls to the singleton's constructor with calls to its static creation
 method
+
 
 # Pros and Cons
 - Pros:
