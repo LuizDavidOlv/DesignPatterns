@@ -1,4 +1,5 @@
-﻿using src.CreationalPatterns.Singleton.NaiveSingleton;
+﻿using src.BehavioralPatterns.Command.Example1;
+using src.CreationalPatterns.Singleton.NaiveSingleton;
 using src.CreationalPatterns.Singleton.ThreadSafeSingleton;
 using src.DesignPatterns.BehavioralPatterns.ChainOfResponsability.ExampleOne;
 using src.DesignPatterns.BehavioralPatterns.Mediator.ExampleOne;
@@ -11,7 +12,7 @@ namespace Program
     {
         static void Main(string[] args)
         {
-            DecoratorPattern.Execute();
+            CommandPattern.Execute();
         }
     }
 }
