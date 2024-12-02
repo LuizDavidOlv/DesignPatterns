@@ -29,6 +29,12 @@ of rebuilding them each time.
 	such as databases connections, file systems, and network resources.
 
 
+# How to Implement
+- Make all products follow the same interface. This interfce should declare methods that make sense in every product.
+- Add a empty factory method(abstract creator) inside the creator class. The return type of the method should match the common product interface
+- In the creator's code find all references to product constructors. One by one, create a set of creator subclasses for each type of product listed in the factory method. 
+Override the factory method in the subclasses and extract the appropriate bits of construction code from the base method.
+
 # Pros and cons
 
 ### Pros
