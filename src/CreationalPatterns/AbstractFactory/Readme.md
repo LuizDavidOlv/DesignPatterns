@@ -1,7 +1,7 @@
 ﻿##### Source: https://refactoring.guru/design-patterns/abstract-factory
 
-# Intent
-- Abstract Factory lets you produce families of realated objects without specifying their concrete classes.
+# Abstract Factory Intent
+- Lets you produce families of realated objects without specifying their concrete classes.
 
 
 # Applicability:
@@ -15,7 +15,13 @@ they might be unknown beforehand or you simply want to allow for furture extensi
 	* In a well-designed program each class is responsible only for one thing. When a class deals with multiple products types, it may be worth extracting
 	its factory methods into a stand-alone factory class or a full-blown Abstract Factory implementation.
 
-
+# How to implement
+- Map out a matrix of distinct product types versus variants fo these products
+- Declare abstract product interfaces for all product types. Them make all concrete product classes implement these interfaces.
+- Declare the abstract factory interface with a set of creation methods for all abstract products
+- Implement a set of concrete factory classes, one for each prodct variant.
+- Create factory initialization code somewhere in the app. It should instantiate one of the concrete factory classes, 
+depending on the application configuration or the current environment. Pass this factory object to all classes that construct products.
 
 # Pros and cons
 
