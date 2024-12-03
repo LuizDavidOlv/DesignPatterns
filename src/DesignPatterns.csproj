@@ -20,7 +20,6 @@
     <Folder Include="BehavioralPatterns\Strategy\" />
     <Folder Include="BehavioralPatterns\Template\" />
     <Folder Include="BehavioralPatterns\Visitor\" />
-    <Folder Include="CreationalPatterns\Builder\" />
     <Folder Include="CreationalPatterns\Prototype\" />
     <Folder Include="DesignSpecificPatterns\DDD\" />
     <Folder Include="DesignSpecificPatterns\MVC\" />

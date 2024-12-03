@@ -1,4 +1,5 @@
 ﻿using src.BehavioralPatterns.Command.Example1;
+using src.CreationalPatterns.Builder.ExampleOne;
 using src.CreationalPatterns.Singleton.NaiveSingleton;
 using src.CreationalPatterns.Singleton.ThreadSafeSingleton;
 using src.DesignPatterns.BehavioralPatterns.ChainOfResponsability.ExampleOne;
@@ -12,7 +13,7 @@ namespace Program
     {
         static void Main(string[] args)
         {
-            CommandPattern.Execute();
+            BuilderPattern.Execute();
         }
     }
 }
