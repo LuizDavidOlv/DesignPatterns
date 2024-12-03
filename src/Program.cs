@@ -13,7 +13,7 @@ namespace Program
     {
         static void Main(string[] args)
         {
-            BuilderPattern.Execute();
+            AdapterPattern.Execute();
         }
     }
 }
