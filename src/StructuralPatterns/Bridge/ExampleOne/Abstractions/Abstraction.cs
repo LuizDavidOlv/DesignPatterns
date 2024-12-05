@@ -2,14 +2,9 @@
 
 namespace src.StructuralPatterns.Bridge.ExampleOne.Abstractions
 {
-    public class Abstraction
+    public class Abstraction(IImplementation implementation)
     {
-        protected IImplementation _implementation;
-
-        public Abstraction(IImplementation implementation)
-        {
-            _implementation = implementation;
-        }
+        protected IImplementation _implementation = implementation;
 
         public virtual string Operation()
         {

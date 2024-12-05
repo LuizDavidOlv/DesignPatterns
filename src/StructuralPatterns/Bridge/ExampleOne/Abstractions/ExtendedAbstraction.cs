@@ -2,10 +2,8 @@
 
 namespace src.StructuralPatterns.Bridge.ExampleOne.Abstractions
 {
-    public class ExtendedAbstraction : Abstraction
+    public class ExtendedAbstraction(IImplementation implementation) : Abstraction(implementation)
     {
-        public ExtendedAbstraction(IImplementation implementation) : base(implementation) { }
-
         public override string Operation()
         {
             return "ExtendedAbstraction: Extended operation with:\n" +
