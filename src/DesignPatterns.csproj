@@ -27,7 +27,6 @@
     <Folder Include="StructuralPatterns\Composite\" />
     <Folder Include="StructuralPatterns\Flyweight\" />
     <Folder Include="StructuralPatterns\Proxy\" />
-    <Folder Include="StructuralPatterns\Bridge\" />
   </ItemGroup>
 
 </Project>

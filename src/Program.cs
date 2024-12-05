@@ -5,6 +5,7 @@ using src.CreationalPatterns.Singleton.ThreadSafeSingleton;
 using src.DesignPatterns.BehavioralPatterns.ChainOfResponsability.ExampleOne;
 using src.DesignPatterns.BehavioralPatterns.Mediator.ExampleOne;
 using src.StructuralPatterns.Adapter.ExampleOne;
+using src.StructuralPatterns.Bridge.ExampleOne;
 using src.StructuralPatterns.Decorator.ExampleOne;
 
 namespace Program
@@ -13,7 +14,7 @@ namespace Program
     {
         static void Main(string[] args)
         {
-            AdapterPattern.Execute();
+            BridgePattern.Execute();
         }
     }
 }
