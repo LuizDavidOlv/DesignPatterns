@@ -7,26 +7,39 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="StructuralPatterns\Facade\Python\**" />
-    <EmbeddedResource Remove="StructuralPatterns\Facade\Python\**" />
-    <None Remove="StructuralPatterns\Facade\Python\**" />
+    <Compile Remove="GangOfFourPatterns\StructuralPatterns\Facade\Python\**" />
+    <EmbeddedResource Remove="GangOfFourPatterns\StructuralPatterns\Facade\Python\**" />
+    <None Remove="GangOfFourPatterns\StructuralPatterns\Facade\Python\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="BehavioralPatterns\Iterator\" />
-    <Folder Include="BehavioralPatterns\Memento\" />
-    <Folder Include="BehavioralPatterns\Observer\" />
-    <Folder Include="BehavioralPatterns\State\" />
-    <Folder Include="BehavioralPatterns\Strategy\" />
-    <Folder Include="BehavioralPatterns\Template\" />
-    <Folder Include="BehavioralPatterns\Visitor\" />
-    <Folder Include="CreationalPatterns\Prototype\" />
-    <Folder Include="DesignSpecificPatterns\DDD\" />
-    <Folder Include="DesignSpecificPatterns\MVC\" />
-    <Folder Include="DesignSpecificPatterns\SAGA\" />
-    <Folder Include="StructuralPatterns\Composite\" />
-    <Folder Include="StructuralPatterns\Flyweight\" />
-    <Folder Include="StructuralPatterns\Proxy\" />
+    <Folder Include="GangOfFourPatterns\BehavioralPatterns\Iterator\" />
+    <Folder Include="GangOfFourPatterns\BehavioralPatterns\Memento\" />
+    <Folder Include="GangOfFourPatterns\BehavioralPatterns\Observer\" />
+    <Folder Include="GangOfFourPatterns\BehavioralPatterns\State\" />
+    <Folder Include="GangOfFourPatterns\BehavioralPatterns\Strategy\" />
+    <Folder Include="GangOfFourPatterns\BehavioralPatterns\Template\" />
+    <Folder Include="GangOfFourPatterns\BehavioralPatterns\Visitor\" />
+    <Folder Include="GangOfFourPatterns\CreationalPatterns\Prototype\" />
+    <Folder Include="ArchitecturalPatterns\MVC\" />
+    <Folder Include="DistributedPatterns\Ambassador\" />
+    <Folder Include="DistributedPatterns\CircuitBreaker\" />
+    <Folder Include="DistributedPatterns\LeaderElection\" />
+    <Folder Include="ArchitecturalPatterns\EventSourcing\" />
+    <Folder Include="DistributedPatterns\DistributedLock\" />
+    <Folder Include="DistributedPatterns\Sidecar\" />
+    <Folder Include="DistributedPatterns\Sharding\" />
+    <Folder Include="ArchitecturalPatterns\SAGA\" />
+    <Folder Include="ConcurrencyPatterns\FuturesPromises\" />
+    <Folder Include="ConcurrencyPatterns\MonitorObject\" />
+    <Folder Include="ConcurrencyPatterns\Barrier\" />
+    <Folder Include="ConcurrencyPatterns\ReadWriteLock\" />
+    <Folder Include="MultiThreadingPatterns\ThreadPool\" />
+    <Folder Include="ConcurrencyPatterns\ProducerConsumer\" />
+    <Folder Include="ConcurrencyPatterns\" />
+    <Folder Include="GangOfFourPatterns\StructuralPatterns\Composite\" />
+    <Folder Include="GangOfFourPatterns\StructuralPatterns\Flyweight\" />
+    <Folder Include="GangOfFourPatterns\StructuralPatterns\Proxy\" />
   </ItemGroup>
 
 </Project>

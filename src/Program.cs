@@ -4,8 +4,8 @@ using src.CreationalPatterns.Singleton.NaiveSingleton;
 using src.CreationalPatterns.Singleton.ThreadSafeSingleton;
 using src.DesignPatterns.BehavioralPatterns.ChainOfResponsability.ExampleOne;
 using src.DesignPatterns.BehavioralPatterns.Mediator.ExampleOne;
+using src.GangOfFourPatterns.StructuralPatterns.Bridge.ExampleOne;
 using src.StructuralPatterns.Adapter.ExampleOne;
-using src.StructuralPatterns.Bridge.ExampleOne;
 using src.StructuralPatterns.Decorator.ExampleOne;
 
 namespace Program
